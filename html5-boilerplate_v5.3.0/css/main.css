@@ -95,25 +95,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .home{
-  background-color: #ffffff;
+  background-color:;
   width: 1024px;
   height: 768px;
-  opacity: 50%;
+
 }
 
-.selectitem{
+.selectitempage{
   background-color: #ffffff;
-  width: 1024px;
-  height: 768px;
+  position: absolute;
 }
 
 .wrapper {
   position: relative;
   width: 1024px;
   height: 768px;
+  background-color: #ffffff;
+  border: 2px #efefef;
+
+
 
 }
 
+.selectthumbs{
+  padding-top: 100px;
+}
 
 .batmanloading {
 
@@ -185,9 +191,15 @@ textarea {
 
   .placeitem {
     margin:auto;
-    margin-top: 150px;
+    padding-top: 150px;
 
   }
+
+  .batlogoselect {
+      margin:auto;
+      padding-top: 150px;
+
+    }
 
     .batmanheader {
 
@@ -217,15 +229,31 @@ textarea {
       	column-gap: 20px;
       	height: 275px
       }
+
+
+
+      .btn-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+
+      }
+
+
+
+
+
+
 .hide {
-  opacity: 0;
+  display: none;
 }
 
 .show {
-  opacity: 100;
+  display: inline;
 }
 
-
+.
 /* ==========================================================================
    Helper classes
    ========================================================================== */
