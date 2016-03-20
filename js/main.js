@@ -33,11 +33,6 @@ $('.selectitempage .show-batarang').click(
   }
 )
 
-
-
-
-
-
 $('.btn-close').click(
   function(){
     $(this).closest('.batsignalpage').addClass('hide')
@@ -45,5 +40,13 @@ $('.btn-close').click(
     $(this).closest('.batpodpage').addClass('hide')
     $(this).closest('.batarangpage').addClass('hide')
     $('.selectitempage').removeClass('hide')
+  }
+)
+
+$('.userlock').click(
+  function(){
+    $('.selectitempage').addClass('hide')
+    $('.home').removeClass('hide')
+
   }
 )
